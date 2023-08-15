@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 importers:
 
   .:
@@ -115,7 +119,7 @@ importers:
         version: 1.11.6
     devDependencies:
       '@ant-design-vue/pro-utils':
-        specifier: workspace:^0.0.0
+        specifier: workspace:^1.0.0
         version: link:../utils
       '@rollup/plugin-typescript':
         specifier: ^8.3.2
@@ -175,10 +179,10 @@ importers:
   packages/pro-form:
     dependencies:
       '@ant-design-vue/pro-field':
-        specifier: workspace:^0.0.0
+        specifier: workspace:^1.0.0
         version: link:../pro-field
       '@ant-design-vue/pro-utils':
-        specifier: workspace:^0.0.0
+        specifier: workspace:^1.0.0
         version: link:../utils
       '@ant-design/icons-vue':
         specifier: ^6.1.0
@@ -197,7 +201,7 @@ importers:
         version: 3.2.45
     devDependencies:
       '@ant-design-vue/pro-layout':
-        specifier: workspace:^3.2.3
+        specifier: workspace:^3.2.4-2
         version: link:../pro-layout
       '@rollup/plugin-typescript':
         specifier: ^8.3.2
@@ -276,7 +280,7 @@ importers:
         version: 3.2.45
     devDependencies:
       '@ant-design-vue/pro-utils':
-        specifier: workspace:^0.0.0
+        specifier: workspace:^1.0.0
         version: link:../utils
       '@rollup/plugin-typescript':
         specifier: ^8.3.2
@@ -336,10 +340,10 @@ importers:
   packages/pro-table:
     dependencies:
       '@ant-design-vue/pro-form':
-        specifier: workspace:^0.1.1
+        specifier: workspace:^1.0.0
         version: link:../pro-form
       '@ant-design-vue/pro-utils':
-        specifier: workspace:^0.0.0
+        specifier: workspace:^1.0.0
         version: link:../utils
       '@ant-design/icons-vue':
         specifier: ^6.1.0

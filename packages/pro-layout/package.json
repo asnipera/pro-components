@@ -1,6 +1,7 @@
 {
-  "name": "@ant-design-vue/pro-layout",
-  "version": "3.2.4-2",
+  "name": "@neotrident/pro-layout",
+  "version": "3.2.5",
+  "private": false,
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -21,6 +22,7 @@
   "module": "./dist/pro-layout.es.js",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/pro-layout.es.js",
       "require": "./dist/pro-layout.umd.js"
     },
